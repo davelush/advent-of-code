@@ -29,7 +29,7 @@ func shiftArray(arr [3]int, i int) [3]int {
 }
 
 func dayOne() {
-	f, err := os.Open("src/input")
+	f, err := os.Open("src/input-dayone")
 	check(err)
 	scanner := bufio.NewScanner(f)
 
